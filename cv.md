@@ -31,3 +31,8 @@ alert( result );
    + Organic synthesis technologies
 * **Proweb**
    + Front-end Development course  
+
+# **Languages**
+* **Uzbek** - native language
+* **Russian** - fluently 
+* **English** - B1 level      
