@@ -15,4 +15,19 @@ I work as a technical specialist in a private company but I want to study modern
 # **Skills**
 * HTML
 * CSS (Bootstrap, SASS)
-* Javascript   
+* Javascript  
+
+# **Code Example**
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+# **Education**
+* **Tashkent Chemical Technologies Institut**
+   + Organic synthesis technologies
+* **Proweb**
+   + Front-end Development course  
