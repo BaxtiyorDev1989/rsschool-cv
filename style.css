@@ -60,7 +60,8 @@ body{
     padding: 25px 0;
     border-bottom: 2px solid #b1eaff;
 }
-.CV .CV_left .CV_item:last-child{
+.CV .CV_left .CV_item :last-child
+.CV .CV_right .CV_item .CV_hobby:last-child{
     border-bottom: 0px;
 }
 .CV .CV_left ul li{
@@ -81,7 +82,8 @@ body{
     font-size: 16px;
     position: relative;
 }
-.CV .icon i{
+.CV .icon i,
+.CV .CV_right .CV_hobby ul li i{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -114,4 +116,83 @@ body{
     left: 0;
     height: 100%;
     background: #fff;
+}
+.CV .CV_right{
+    width: 460px;
+    background: #fff;
+    padding: 25px ;
+} 
+.CV .CV_right .bold{
+    color: #0bb5f4;
+}
+.CV .CV_right .CV_work ul,
+.CV .CV_right .CV_education ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.CV .CV_right ul li{
+    position: relative;
+}
+.CV .CV_right ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.CV .CV_right ul li .info{
+    margin-bottom: 20px;
+}
+.CV .CV_right ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.CV .CV_right .CV_work ul li:before,
+.CV .CV_right .CV_education ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+}
+.CV .CV_right .CV_work ul li:after,
+.CV .CV_right .CV_education ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 3px;
+    height: 115px;
+    background: #0bb5f4;
+}
+.CV .CV_right .CV_hobby ul{
+   display: flex;
+   justify-content: space-between;
+}
+.CV .CV_right .CV_hobby ul li{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #0bb5f4;
+    border-radius: 50%;
+    position: relative;
+    color: #0bb5f4;
+}
+.CV .CV_right .CV_hobby ul li i{
+    font-size: 30px;
+}
+.CV .CV_right .CV_hobby ul li:before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -32px;
+    width: 30px;
+    height: 2px;
+    background: #0bb5f4;
+}
+.CV .CV_right .CV_item .CV_hobby ul li:last-child:before{
+    display: none;
+}
+.CV .CV_right .CV_item .CV_hobby ul li i{
+    font-size: 30px;
 }
