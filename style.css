@@ -15,6 +15,10 @@ body {
   line-height: 22px;  
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -35,33 +39,40 @@ body {
   font-weight: 400;
 }
 
-.nav-list{
+.nav_list{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-       
+    list-style: none; 
+    background: #0bb5f4;  
+     
 }
 
-.nav-link{
+.nav_link{
     padding: 0 20px;
     line-height: 50px;
     font-weight: 400;
     font-size: 20px;
-    list-style: none; 
+    text-decoration: none;
+   
 
 }
 .CV {  
   height: auto;
   display: flex;
+  border: 1px solid #0bb5f4; ;
 }
 
 .CV .CV_left {
   width: 500px;
-  background: #0bb5f4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 .CV .CV_left .CV_photo {
   width: 100%;
   height: 380px;
+  border-radius: 50%;
 }
 .CV .CV_left .CV_photo img {
   width: 100%;
@@ -69,6 +80,7 @@ body {
 }
 .CV .CV_left .CV_content {
   padding: 0 25px;
+  background: #0bb5f4;
 }
 .CV .title {
   margin-bottom: 20px;
@@ -216,4 +228,24 @@ body {
 }
 .CV .CV_right .CV_item .CV_hobby ul li i {
   font-size: 30px;
+}
+
+.footer_box{
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  background: #0bb5f4;
+}
+
+.footer_box .footer_text{
+  font-weight: 400;
+  font-size: 20px;
+  color: #b1eaff;
+  
+}
+
+.footer_box .footer_link img{
+  width: 70px;
+  height: 60px;
+
 }
