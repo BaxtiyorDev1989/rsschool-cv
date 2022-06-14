@@ -84,6 +84,7 @@ html{
 }
 .CV .title {
   margin-bottom: 20px;
+  border-bottom: 2px solid #b1eaff;
 }
 .CV .CV_left .bold {
   color: #fff;
@@ -92,8 +93,7 @@ html{
   color: #b1eaff;
 }
 .CV .CV_item {
-  padding: 25px 0;
-  border-bottom: 2px solid #b1eaff;
+  padding: 25px 0;  
 }
 .CV .CV_left .CV_item :last-child .CV .CV_right .CV_item .CV_hobby:last-child {
   border-bottom: 0px;
@@ -163,7 +163,7 @@ html{
   padding-left: 40px;
   overflow: hidden;
 }
-.CV .CV_right ul li {
+.CV .CV_right .work_list {
   position: relative;
 }
 .CV .CV_right ul li .date {
@@ -199,40 +199,29 @@ html{
   height: 115px;
   background: #0bb5f4;
 }
-.CV .CV_right .CV_hobby ul {
-  display: flex;
-  justify-content: space-between;
-}
-.CV .CV_right .CV_hobby ul li {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #0bb5f4;
-  border-radius: 50%;
-  position: relative;
-  color: #0bb5f4;
-}
-.CV .CV_right .CV_hobby ul li i {
-  font-size: 30px;
-}
-.CV .CV_right .CV_hobby ul li:before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  right: -32px;
-  width: 30px;
-  height: 2px;
-  background: #0bb5f4;
-}
-.CV .CV_right .CV_item .CV_hobby ul li:last-child:before {
-  display: none;
-}
-.CV .CV_right .CV_item .CV_hobby ul li i {
-  font-size: 30px;
+
+.projects_list{
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 15px;
+  list-style-type: disc;
 }
 
+.projects_list li a{
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+.projects_list li{
+  margin-top: 10px;
+  color: black;
+  font-size: 10px;
+}
 .footer_box{
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   align-items: center;
   background: #0bb5f4;
 }
