@@ -44,7 +44,7 @@ html{
     justify-content: flex-end;
     align-items: center;
     list-style: none; 
-    background: #0bb5f4;  
+    background: #029fd7;  
      
 }
 
@@ -53,10 +53,11 @@ html{
     line-height: 50px;
     font-weight: 400;
     font-size: 20px;
-    text-decoration: none;
-   
+    text-decoration: none; 
+    color: #b1eaff;  
 
 }
+
 .CV {  
   height: auto;
   display: flex;
@@ -64,11 +65,10 @@ html{
 }
 
 .CV .CV_left {
-  width: 500px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 500px; 
   
 }
+
 .CV .CV_left .CV_photo {
   width: 100%;
   height: 380px;
@@ -95,17 +95,13 @@ html{
 .CV .CV_item {
   padding: 25px 0;  
 }
-.CV .CV_left .CV_item :last-child .CV .CV_right .CV_item .CV_hobby:last-child {
-  border-bottom: 0px;
-}
+
 .CV .CV_left ul li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-/* .CV .CV_left ul li:last-child{
-    margin-bottom: 0px;
-} */
+
 .CV .CV_left ul li .icon {
   width: 35px;
   height: 35px;
@@ -157,6 +153,10 @@ html{
 }
 .CV .CV_right .bold {
   color: #0bb5f4;
+}
+.CV_text{
+  font-weight: 400;
+  font-size: 18px;
 }
 .CV .CV_right .CV_work ul,
 .CV .CV_right .CV_education ul {
@@ -218,12 +218,15 @@ html{
   margin-top: 10px;
   color: black;
   font-size: 10px;
+  list-style-type: circle;
 }
 .footer_box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  background: #0bb5f4;
+  background: #029fd7;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer_box .footer_text{
