@@ -6,207 +6,279 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project_CV</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" />
+    <link />
     <script
       src="https://kit.fontawesome.com/2e51231d06.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <div class="CV">
-      <div class="CV_left">
-        <div class="CV_photo">
-          <img src="photo_profile.jpg" alt="CV_pic" />
-        </div>
-        <div class="CV_content">
-          <div class="CV_item CV_info">
-            <div class="title">
-              <p class="bold">Bakhtiyor Nasirov</p>
-              <p class="regular">Technical specialist</p>
+    <header class="header">
+      <div class="container">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#contacts" class="nav_link">Contacts</a>
+          </li>
+          <li class="nav_item">
+            <a href="#skills" class="nav_link">Skills</a>
+          </li>
+          <li class="nav_item">
+            <a href="#social" class="nav_link">Social</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about me" class="nav_link">About me</a>
+          </li>
+          <li class="nav_item">
+            <a href="#experience" class="nav_link">Experience</a>
+          </li>
+          <li class="nav_item">
+            <a href="#education" class="nav_link">Education</a>
+          </li>
+          <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="CV">
+          <div class="CV_left">
+            <div class="CV_photo">
+              <img src="/assets/images/photo_profile.jpg" alt="CV_pic"/>
             </div>
-            <ul>
-              <li>
-                <div class="icon"><i class="fa-solid fa-signs-post"></i></div>
-                <div class="data">
-                  Salar Street 17, Tashkent <br />
-                  Uzbekistan
+            <div class="CV_content">
+              <div class="CV_item CV_info" id="contacts">
+                <div class="title">
+                  <h1 class="bold">Bakhtiyor Nasirov</h1>
+                  <p class="regular">Technical specialist</p>
                 </div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="icon">
-                  <i class="fa-solid fa-mobile-screen"></i>
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <i class="fa-solid fa-signs-post"></i>
+                    </div>
+                    <div class="data">
+                      Salar Street 17, Tashkent <br />
+                      Uzbekistan
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <div class="data">+998 (97)7593237</div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="data">baxtiyor.nosirov.2015@gmail.com</div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="icon"><i class="fa-brands fa-github"></i></div>
+                    <div class="data">BaxtiyorDev1989</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="CV_item CV_skills" id="skills">
+                <div class="title">
+                  <h2 class="bold">skill's</h2>
                 </div>
-                <div class="data">+998 (97)7593237</div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-                <div class="data">baxtiyor.nosirov.2015@gmail.com</div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="icon"><i class="fa-brands fa-github"></i></div>
-                <div class="data">BaxtiyorDev1989</div>
-              </li>
-            </ul>
+                <ul>
+                  <li>
+                    <div class="skill_name">HTML</div>
+                    <div class="skill_progress">
+                      <span style="width: 80%"></span>
+                    </div>
+                    <div class="skill_per">90%</div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="skill_name">CSS</div>
+                    <div class="skill_progress">
+                      <span style="width: 70%"></span>
+                    </div>
+                    <div class="skill_per">70%</div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="skill_name">Javascript</div>
+                    <div class="skill_progress">
+                      <span style="width: 20%"></span>
+                    </div>
+                    <div class="skill_per">20%</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="CV_item CV_social" id="social">
+                <div class="title">
+                  <h2 class="bold">Social</h2>
+                </div>
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="data">
+                      <p class="semi-bold">Facebook</p>
+                      <p>Bakhtiyor@facebook</p>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="data">
+                      <p class="semi-bold">Twitter</p>
+                      <p>Bakhtiyor@twitter</p>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="data">
+                      <p class="semi-bold">Linkedin</p>
+                      <p>Bakhtiyor@Linkedin</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="CV_item CV_skills">
-            <div class="title">
-              <p class="bold">skill's</p>
+          <div class="CV_right">
+            <div class="CV_item CV_about" id="about me">
+              <div class="title">
+                <h2 class="bold">About Me</h2>
+              </div>
+              <p class="CV_text">
+                I work as a technical specialist in a private company but I want
+                to study modern skills like a Front-end development. My main
+                goal in this course is studying Javascript and I use all
+                capabilities to reach this goal.
+              </p>
             </div>
-            <ul>
-              <li>
-                <div class="skill_name">HTML</div>
-                <div class="skill_progress">
-                  <span style="width: 80%"></span>
-                </div>
-                <div class="skill_per">90%</div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="skill_name">CSS</div>
-                <div class="skill_progress">
-                  <span style="width: 70%"></span>
-                </div>
-                <div class="skill_per">70%</div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="skill_name">Javascript</div>
-                <div class="skill_progress">
-                  <span style="width: 20%"></span>
-                </div>
-                <div class="skill_per">20%</div>
-              </li>
-            </ul>
-          </div>
-          <div class="CV_item CV_social">
-            <div class="title">
-              <p class="bold">Social</p>
+            <div class="CV_item CV_work" id="experience">
+              <div class="title">
+                <h2 class="bold">Work Experience</h2>
+              </div>
+              <ul>
+                <li class="work_list">
+                  <div class="date">2014 -2017</div>
+                  <div class="info">
+                    <p class="semi-bold">
+                      UzbekneftGaz National Company Department of Oil and Gas
+                      refining technologies
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="work_list">
+                  <div class="date">2017 -2021</div>
+                  <div class="info">
+                    <p class="semi-bold">
+                      UzbekneftGaz National Company Department of Scientific
+                      Research New Energy Technologies Laboratory of Oil
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="work_list">
+                  <div class="date">2021 - present</div>
+                  <div class="info">
+                    <p class="semi-bold">
+                      DISTRITECH LLC Joint-Stock Company Department of Service
+                      Maintanence
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <ul>
-              <li>
-                <div class="icon"><i class="fa-brands fa-facebook"></i></div>
-                <div class="data">
-                  <p class="semi-bold">Facebook</p>
-                  <p>Bakhtiyor@facebook</p>
-                </div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="icon"><i class="fa-brands fa-twitter"></i></div>
-                <div class="data">
-                  <p class="semi-bold">Twitter</p>
-                  <p>Bakhtiyor@twitter</p>
-                </div>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
-                <div class="data">
-                  <p class="semi-bold">Linkedin</p>
-                  <p>Bakhtiyor@Linkedin</p>
-                </div>
-              </li>
-            </ul>
+            <div class="CV_item CV_education" id="education">
+              <div class="title">
+                <h2 class="bold">Education</h2>
+              </div>
+              <ul>
+                <li class="work_list">
+                  <div class="date">2011 -2015</div>
+                  <div class="info">
+                    <p class="semi-bold">
+                      Tashkent Chemical Technologies Institute Organic Synthesis
+                      Faculty
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="work_list">
+                  <div class="date">2020 -2021</div>
+                  <div class="info">
+                    <p class="semi-bold">
+                      Proweb Programming school Front end Development course
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="work_list">
+                  <div class="date">2022</div>
+                  <div class="info">
+                    <p class="semi-bold">
+                      Pre-Interdemiate Intensive Course
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="CV_item CV_projects" id="projects">
+              <div class="title">
+                <h2 class="bold">Code Example & Projects</h2>                
+              </div>
+              <code>
+                function sum(a, b) {<br>
+                  return a + b;<br>
+                }<br>
+                
+                let result = sum(1, 2);<br>
+                alert( result );<br>       
+              </code>
+              <ul class="projects_list">
+                <li><a href="https://baxtiyordev1989.github.io/Tashkent-travels/">Tashkent-travels</a></li>
+                <li><a href="https://baxtiyordev1989.github.io/Design-and-Develop/">Design-and-Develop</a></li>
+                <li><a href="https://baxtiyordev1989.github.io/Kirieshki/">Kirieshki</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="CV_right">
-        <div class="CV_item CV_about">
-          <div class="title">
-            <p class="bold">About Me</p>
-          </div>
-          <p>
-            I work as a technical specialist in a private company but I want to
-            study modern skills like a Front-end development. My main goal in
-            this course is studying Javascript and I use all capabilities to
-            reach this goal.
-          </p>
-        </div>
-        <div class="CV_item CV_work">
-          <div class="title">
-            <p class="bold">Work Experience</p>
-          </div>
-          <ul>
-            <li>
-              <div class="date">2014 -2017</div>
-              <div class="info">
-                <p class="semi-bold">
-                  UzbekneftGaz National Company Department of Oil and Gas
-                  refining technologies
-                </p>
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div class="date">2017 -2021</div>
-              <div class="info">
-                <p class="semi-bold">
-                  UzbekneftGaz National Company Department of Scientific
-                  Research New Energy Technologies Laboratory of Oil 
-                </p>
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div class="date">2021 - present</div>
-              <div class="info">
-                <p class="semi-bold">
-                  DISTRITECH LLC Joint-Stock Company Department of Service
-                  Maintanence
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="CV_item CV_education">
-          <div class="title">
-            <p class="bold">Education</p>
-          </div>
-          <ul>
-            <li>
-              <div class="date">2011 -2015</div>
-              <div class="info">
-                <p class="semi-bold">
-                  Tashkent Chemical Technologies Institute Organic Synthesis
-                  Faculty
-                </p>
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div class="date">2020 -2021</div>
-              <div class="info">
-                <p class="semi-bold">
-                  Proweb Programming school Front end Development course
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="CV_item CV_hobby">
-          <div class="title">
-            <p class="bold">Hobby</p>
-          </div>
-          <ul>
-              <li><i class="fa-solid fa-plane-departure"></i></li>
-              <li><i class="fa-brands fa-playstation"></i></li>
-              <li><i class="fa-solid fa-futbol"></i></li>
-              <li><i class="fa-solid fa-mountain-sun"></i></li>
-          </ul>
-        </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer_box">
+          <li>
+            <a class="footer_link" href="https://github.com/BaxtiyorDev1989">
+              <img src="/assets/images/github.png" alt="github account"
+            /></a>
+          </li>
+          <li><p class="footer_text">Created 2022</p></li>
+          <li>
+            <a class="footer_link" href="https://rs.school/js-stage0/">
+              <img src="/assets/images/rs_school_js.png" alt="rsschool logo"
+            /></a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
+
